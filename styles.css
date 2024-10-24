@@ -1,0 +1,8 @@
+.mybuttons{
+    background-color: rgb(92, 92, 92);
+    color: blue;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 15%
+}

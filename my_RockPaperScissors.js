@@ -14,11 +14,17 @@ let scoreArray = [];
 while (userSelection == null){
     userChoice = prompt(arrayString);
     userSelection = getHumanChoice(userChoice, mainArray);
+
+
+    
 }  
 if (userSelection !== null){
     scoreArray = playRound(computerSelection, userSelection, mainArray, humanScore, computerScore);}
+
     
+/*
 playGame(userChoice, scoreArray, computerSelection, userSelection, mainArray, humanScore, computerScore);
+
 
 
 function playGame(userChoice, scoreArray, computerSelection, userSelection, mainArray, humanScore, computerScore){
@@ -38,6 +44,10 @@ function playGame(userChoice, scoreArray, computerSelection, userSelection, main
     }
 }
 
+
+*/
+
+
 function playRound(computerSelection, userSelection, mainArray, humanScore, computerScore){
 
     if(userSelection === mainArray[0] && computerSelection === mainArray[2] || userSelection === mainArray[1] && computerSelection === mainArray[0] || userSelection === mainArray[2] && computerSelection === mainArray[1]){
@@ -56,6 +66,12 @@ function playRound(computerSelection, userSelection, mainArray, humanScore, comp
         console.log("This is a tie!, no points for either one of you! ");
         return[humanScore, computerScore];}
 }
+
+
+
+
+
+
 
 function displayPlayed(userSelection, computerSelection){
     console.log(`You played ${userSelection} and computer played ${computerSelection}`);
