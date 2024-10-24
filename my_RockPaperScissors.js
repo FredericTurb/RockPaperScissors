@@ -23,9 +23,6 @@ playGame(userChoice, scoreArray, computerSelection, userSelection, mainArray, hu
 
 function playGame(userChoice, scoreArray, computerSelection, userSelection, mainArray, humanScore, computerScore){
     
-    let i = scoreArray[0];
-    let y = scoreArray[1];
-
     while (scoreArray[0] < 5 && scoreArray[1] < 5)
         {
             computerSelection = getComputerChoice(mainArray);
