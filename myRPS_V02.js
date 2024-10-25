@@ -36,7 +36,7 @@ function playGame(myHuman){
 
     displayPlayed(myHuman)
     checkScores();
-    displayScores()  
+    displayScores(); 
 }
 
 function checkScores(){
