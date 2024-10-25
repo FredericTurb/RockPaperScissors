@@ -1,8 +1,122 @@
-.mybuttons{
-    background-color: rgb(92, 92, 92);
-    color: blue;
-    padding: 20%;
+html, body{
+    height: 100%;
+    margin: 0;
+    background-color: grey;
+    overflow: hidden;
+    
+}
+
+body{
+    background-image: url(./images/AdobeStock_885122196.jpeg); /* Set the background image */
+    background-size: 150%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+h1{
     display: flex;
     justify-content: center;
-    gap: 15%
+    align-items: center;
+    font-size: 600%;
+    margin: 0;
+    outline: 20%;
+    color: rgb(89, 89, 89); /* Text color */
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
+}
+
+#contenders{
+    font-size: 150%;
+    background-color: rgba(253, 253, 255, 0.483);
+    border-radius: 50%;
+    font-weight: 900;
+    text-shadow: 
+    -2px -2px 0 rgb(255, 255, 255),  
+     2px -2px 0 rgb(255, 255, 255),
+    -2px  2px 0 rgb(255, 255, 255),
+     2px  2px 0 rgb(255, 255, 255);
+}
+
+#vs{
+    font-size: 200%;
+    color: rgb(114, 26, 26);
+    font-weight: 900;
+    text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top:5%;
+    font-size: 250%;
+}
+.mybuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding: 20%;
+    padding-top: 2%;;
+}
+
+#pick{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    padding-top: 8%;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+    
+}
+button{
+    cursor: pointer;
+    font-size: 200%;
+    background-color: rgb(133, 132, 132);
+    width: 100%;
+    height: auto;
+    font-weight: 900;
+}
+
+#scores{
+    display: flex;
+    justify-content:center;
+    font-size: 200%;
+    color: white;
+    margin-top: 2%;
+    border-color: black;
+    gap: 20%
+}
+
+#wasplayed{
+    display: flex;
+    justify-content:center;
+    font-size: 200%;
+    color: white;
+    margin-top: 2%;
+    border-color: black;
+    gap: 20%;
+}
+
+#result{
+    display:flex;
+    justify-content: center;
+    height: 10%; 
+    padding-top: 5%;
+    color: black;
+    font-size: 500%;
+    font-weight: bold;
 }
